@@ -1,4 +1,4 @@
-<div>
+<div>  
   <mat-card>
     <mat-card-title>Manchester United Quiz</mat-card-title>
     <mat-card-subtitle>Test your knowledge of Manchester United with this quiz developed in Angular!</mat-card-subtitle>
@@ -7,75 +7,65 @@
     <mat-form-field #quizForm="ngForm" (ngSubmit)="getResult()">
         <label>{{question.getQuestion(100)}}</label>
         <label for="question_answer_{{question.option.name}}">
-          <input id="question_answer_{{question.option.name}}" [value]='question.option.name' type="radio" name="answers" [(ngModel)]="isAnswered">
+          <input id="question_answer_{{question.option.name}}" [value]="question.option.name" type="radio" name="answers" [(ngModel)]="isAnswered"/>
             {{question.option.name}}
-          </input>
         </label>
-      <br/>
+      <br>
         <label>{{question.getQuestion(101)}}</label>
         <label for="question_answer_{{question.option.name}}">
-          <input id="question_answer_{{question.option.name}}" [value]='question.option.name' type="radio" name="answers" [(ngModel)]="isAnswered">
+          <input id="question_answer_{{question.option.name}}" [value]="question.option.name" type="radio" name="answers" [(ngModel)]="isAnswered"/>
             {{question.option.name}}
-          </input>
         </label>
-      <br/>
+      <br>
         <label>{{question.getQuestion(102)}}</label>
         <label for="question_answer_{{question.option.name}}">
-          <input id="question_answer_{{question.option.name}}" [value]='question.option.name' type="radio" name="answers" [(ngModel)]="isAnswered">
+          <input id="question_answer_{{question.option.name}}" [value]="question.option.name" type="radio" name="answers" [(ngModel)]="isAnswered"/>
             {{question.option.name}}
-          </input>
         </label>
-      <br/>
+      <br>
         <label>{{question.getQuestion(103)}}</label>
         <label for="question_answer_{{question.option.name}}">
-          <input id="question_answer_{{question.option.name}}" [value]='question.option.name' type="radio" name="answers" [(ngModel)]="isAnswered">
+          <input id="question_answer_{{question.option.name}}" [value]="question.option.name" type="radio" name="answers" [(ngModel)]="isAnswered"/>
             {{question.option.name}}
-          </input>
         </label>
-      <br/>
+      <br>
         <label>{{question.getQuestion(104)}}</label>
         <label for="question_answer_{{question.option.name}}">
-          <input id="question_answer_{{question.option.name}}" [value]='question.option.name' type="radio" name="answers" [(ngModel)]="isAnswered">
+          <input id="question_answer_{{question.option.name}}" [value]="question.option.name" type="radio" name="answers" [(ngModel)]="isAnswered"/>
             {{question.option.name}}
-          </input>
         </label>
-      <br/>
+      <br>
         <label>{{question.getQuestion(105)}}</label>
         <label for="question_answer_{{question.option.name}}">
-          <input id="question_answer_{{question.option.name}}" [value]='question.option.name' type="radio" name="answers" [(ngModel)]="isAnswered">
+          <input id="question_answer_{{question.option.name}}" [value]="question.option.name" type="radio" name="answers" [(ngModel)]="isAnswered"/>
             {{question.option.name}}
-          </input>
         </label>
-      <br/>
+      <br>
         <label>{{question.getQuestion(106)}}</label>
         <label for="question_answer_{{question.option.name}}">
-          <input id="question_answer_{{question.option.name}}" [value]='question.option.name' type="radio" name="answers" [(ngModel)]="isAnswered">
+          <input id="question_answer_{{question.option.name}}" [value]="question.option.name" type="radio" name="answers" [(ngModel)]="isAnswered"/>
             {{question.option.name}}
-          </input>
         </label>
-      </br/>
+      <br>
         <label>{{question.getQuestion(107)}}</label>
         <label for="question_answer_{{question.option.name}}">
-          <input id="question_answer_{{question.option.name}}" [value]='question.option.name' type="radio" name="answers" [(ngModel)]="isAnswered">
+          <input id="question_answer_{{question.option.name}}" [value]="question.option.name" type="radio" name="answers" [(ngModel)]="isAnswered"/>
             {{question.option.name}}
-          </input>
         </label>
       <br>
         <label>{{question.getQuestion(108)}}</label>
         <label for="question_answer_{{question.option.name}}">
-          <input id="question_answer_{{question.option.name}}" [value]='question.option.name' type="radio" name="answers" [(ngModel)]="isAnswered">
+          <input id="question_answer_{{question.option.name}}" [value]="question.option.name" type="radio" name="answers" [(ngModel)]="isAnswered"/>
             {{question.option.name}}
-          </input>
         </label>
-      <br/>
+      <br>
         <label>{{question.getQuestion(109)}}</label>
         <label for="question_answer_{{question.option.name}}">
-          <input id="question_answer_{{question.option.name}}" [value]='question.option.name' type="radio" name="answers" [(ngModel)]="isAnswered">
+          <input id="question_answer_{{question.option.name}}" [value]="question.option.name" type="radio" name="answers" [(ngModel)]="isAnswered"/>
             {{question.option.name}}
-          </input>
         </label>
-      <br/>
-      <button mat-raised-button style="background-color:green">Submit</button>
+      <br>
+      <button mat-raised-button value="submit" style="background-color:green;">
     </mat-form-field>
   </div>
 </div>

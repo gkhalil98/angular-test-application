@@ -25,4 +25,27 @@ export class AppComponent {
     this.questionService.getQuestions().subscribe(questions => this.questions = questions);
   }
 
+  public getResult() {
+  //   var count = 0;
+  //   var msg = "";
+  //   var option1 = this.question.options[0];
+  //   var option2 = this.question.options[1];
+  //   var option3 = this.question.options[2];
+  //   var option4 = this.question.options[3];
+  //   if (this.question.isAnswered == option2.isAnswer) {
+  //     count++;
+  //   }
+  //   else {
+
+  //   }
+    
+  //   if (count > 6) {
+  //     msg = `You passed! You answered ${count}/10 correct!`;
+  //   }
+
+  //   else {
+  //     msg = `You failed! You answered ${count}/10 correct`
+  //   }
+  }
+
 }
