@@ -1,0 +1,9 @@
+Github repo: https://github.com/gkhalil98/angular-test-application
+
+Steps:
+1. I created four necessary files, the json file with test data, two models for my questions and answers, and a service to link these so they could display properly
+2. In the json file I used the internet to find the correct syntax and then created my json file with questions about manchester united
+3. For the models I created objects out of the questions and answers and then deserialized their information so I could work with the json data easier
+4. Next I added my main functionality in the app.ts file
+5. The final step was to create the html page and debug
+6. When debugging I encountered a rather peculiar bug that I could not solve so I have included that screenshot, otherwise the logic is functional.

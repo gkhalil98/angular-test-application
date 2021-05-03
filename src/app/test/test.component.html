@@ -1,0 +1,91 @@
+
+<mat-card>
+  <mat-card-title>Manchester United Quiz</mat-card-title>
+  <mat-card-subtitle>Test your knowledge of Manchester United with this quiz developed in Angular!</mat-card-subtitle>
+</mat-card>
+<div>
+  <form #quizForm="ngForm" (ngSubmit)="getResult(quizForm.value)">
+    <mat-form-field>
+        <mat-label>{{question.getQuestion(100)}}</mat-label>
+        <input type="radio" name="q1option1" ngModel value="question.getQuestion(100).option[0].name">
+        <input type="radio" name="q1option2" ngModel value="question.getQuestion(100).option[1].name">
+        <input type="radio" name="q1option3" ngModel value="question.getQuestion(100).option[2].name">
+        <input type="radio" name="q1option4" ngModel value="question.getQuestion(100).option[3].name">
+      </mat-form-field>
+        <br/>
+        <mat-form-field>
+        <mat-label>{{question.getQuestion(101)}}</mat-label>
+        <input type="radio" name="q2option1" ngModel value="question.getQuestion(101).option[0].name">
+        <input type="radio" name="q2option2" ngModel value="question.getQuestion(101).option[1].name">
+        <input type="radio" name="q2option3" ngModel value="question.getQuestion(101).option[2].name">
+        <input type="radio" name="q2option4" ngModel value="question.getQuestion(101).option[3].name">
+      </mat-form-field>
+        <br/>
+      <mat-form-field>
+        <mat-label>{{question.getQuestion(102)}}</mat-label>
+        <input type="radio" name="q3option1" ngModel value="question.getQuestion(102).option[0].name">
+        <input type="radio" name="q3option2" ngModel value="question.getQuestion(102).option[1].name">
+        <input type="radio" name="q3option3" ngModel value="question.getQuestion(102).option[2].name">
+        <input type="radio" name="q3option4" ngModel value="question.getQuestion(102).option[3].name">
+      </mat-form-field>
+        <br/>
+      <mat-form-field>
+        <mat-label>{{question.getQuestion(103)}}</mat-label>
+        <input type="radio" name="q4option1" ngModel value="question.getQuestion(103).option[0].name">
+        <input type="radio" name="q4option2" ngModel value="question.getQuestion(103).option[1].name">
+        <input type="radio" name="q4option3" ngModel value="question.getQuestion(103).option[2].name">
+        <input type="radio" name="q4option4" ngModel value="question.getQuestion(103).option[3].name">
+      </mat-form-field>
+        <br/>
+      <mat-form-field>
+        <mat-label>{{question.getQuestion(104)}}</mat-label>
+        <input type="radio" name="q5option1" ngModel value="question.getQuestion(104).option[0].name">
+        <input type="radio" name="q5option2" ngModel value="question.getQuestion(104).option[1].name">
+        <input type="radio" name="q5option3" ngModel value="question.getQuestion(104).option[2].name">
+        <input type="radio" name="q5option4" ngModel value="question.getQuestion(104).option[3].name">
+      </mat-form-field>
+        <br/>
+      <mat-form-field>
+        <mat-label>{{question.getQuestion(105)}}</mat-label>
+        <input type="radio" name="q6option1" ngModel value="question.getQuestion(105).option[0].name">
+        <input type="radio" name="q6option2" ngModel value="question.getQuestion(105).option[1].name">
+        <input type="radio" name="q6option3" ngModel value="question.getQuestion(105).option[2].name">
+        <input type="radio" name="q6option4" ngModel value="question.getQuestion(105).option[3].name">
+      </mat-form-field>
+        <br/>
+      <mat-form-field>
+        <mat-label>{{question.getQuestion(106)}}</mat-label>
+        <input type="radio" name="q7option1" ngModel value="question.getQuestion(106).option[0].name">
+        <input type="radio" name="q7option2" ngModel value="question.getQuestion(106).option[1].name">
+        <input type="radio" name="q7option3" ngModel value="question.getQuestion(106).option[2].name">
+        <input type="radio" name="q7option4" ngModel value="question.getQuestion(106).option[3].name">
+      </mat-form-field>
+        <br/>
+      <mat-form-field>
+        <mat-label>{{question.getQuestion(107)}}</mat-label>
+        <input type="radio" name="q8option1" ngModel value="question.getQuestion(107).option[0].name">
+        <input type="radio" name="q8option2" ngModel value="question.getQuestion(107).option[1].name">
+        <input type="radio" name="q8option3" ngModel value="question.getQuestion(107).option[2].name">
+        <input type="radio" name="q8option4" ngModel value="question.getQuestion(107).option[3].name">
+      </mat-form-field>
+        <br/>
+      <mat-form-field>
+        <mat-label>{{question.getQuestion(108)}}</mat-label>
+        <input type="radio" name="q9option1" ngModel value="question.getQuestion(108).option[0].name">
+        <input type="radio" name="q9option2" ngModel value="question.getQuestion(108).option[1].name">
+        <input type="radio" name="q9option3" ngModel value="question.getQuestion(108).option[2].name">
+        <input type="radio" name="q9option4" ngModel value="question.getQuestion(108).option[3].name">
+      </mat-form-field>
+        <br/>
+      <mat-form-field>
+        <mat-label>{{question.getQuestion(109)}}</mat-label>
+        <input type="radio" name="q10option1" ngModel value="question.getQuestion(109).option[0].name">
+        <input type="radio" name="q10option2" ngModel value="question.getQuestion(109).option[1].name">
+        <input type="radio" name="q10option3" ngModel value="question.getQuestion(109).option[2].name">
+        <input type="radio" name="q10option4" ngModel value="question.getQuestion(109).option[3].name">
+      </mat-form-field>
+        <br/>
+        <button mat-raised-button type="submit" style="background-color:green;">Submit</button>
+  </form>
+    <!--{{msg}}-->
+</div>
